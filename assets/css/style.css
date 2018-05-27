@@ -5,12 +5,41 @@
 }
 
 .container {
-	background-color: #f8e7e8;
+	background-color: black;
 	max-width: 100%;
 	background-size: cover;
 	padding: 0;
 
 }
+
+
+.slideshow {
+	max-width: 1280px
+	max-height: ;
+	height: auto;
+	background-size: cover;
+
+}
+
+.mySlides {
+	display: none;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*

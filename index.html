@@ -25,11 +25,12 @@
 	<!-- favicon -->
 	<link rel="icon" type="image/gif/png" href="assets/images/sblogo.png">
 
+	<script language= "javascript"></script>
 </head>
 
 <body>
-	 <!-- Nav Bar -->
-    <nav>
+	 <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
         <div class="container nav-bar">
             <ul class="float-right">
                 <li class="nav-list"><a href="index.html">Melbourne</a></li>
@@ -49,19 +50,37 @@
                 <div class="pageTitle">
                     <h1>Melbourne</h1>
                     <cite>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                    <br>
-                    -Pascal Mercier, Night Train to Lisbon</cite>
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia.</cite>
                 </div>
             </div>
-        </section>
+    	</section>
+    </main>
+
+		<div class="slideshow">
+  			<img class="mySlides" src="assets/images/12apostles.jpg">
+  			<img class="mySlides" src="assets/images/beach.jpg">
+  			<img class="mySlides" src="assets/imageskyline.jpg">
+		</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+
+</script>
 
 
-
-
-	</main>	
-	
-	
 
 	
 
