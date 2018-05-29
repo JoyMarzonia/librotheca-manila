@@ -1,0 +1,197 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+@font-face {
+	font-family: "couture";
+	src: url("../fonts/couture.otf");
+}
+
+nav {
+	background-color: #000;
+	text-align: center;
+	position: relative;
+	top: 0;
+	height: 50px;
+	max-width: 100%;
+	
+}
+
+nav a {
+	color: #f8e7e8;
+	font-size: 14px;
+	line-height: 16px;
+	margin: 15px;
+	border: 0px;
+	padding-top: 10px;
+	display: inline-block;
+	font-family: 'Patrick Hand SC', cursive;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+
+}
+
+.selected {
+	text-decoration: underline;	
+}
+
+#home {
+	height: 500px;
+	max-width: 100%;
+	background-color: #f8e7e8;
+}
+
+#jm {
+	text-align: center;
+	margin: 0px 0 10px;
+	top: 49.5%;
+	padding-top: 50px;
+} 
+
+#home {
+	height: 500px;
+	width: 100%;
+	background-color: #f8e7e8;
+}
+
+#content1 {
+	height: 500px;
+	width: 100%;
+	background: url(../../assets/images/bg.jpg);
+	background-size: cover;
+	font-family: 'Patrick Hand SC', cursive;
+}
+
+#content2 {
+	height: 500px;
+	width: 100%;
+	background-color: #f8e7e8;
+}
+
+#core {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.col-md-12 {
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.progress {
+	background-color: #cc8585;
+	border-radius: 11px;
+	height: 33px;
+}
+
+.progress-bar-custom {
+	background-color: #C7D8C6;
+	width: 90%;
+}
+
+.progress-bar-custom2 {
+	background-color: #E7D479;
+	width: 80%;
+}
+
+.progress-bar-custom3 {
+	background-color: #E7D4f9;
+	width: 70%;
+}
+
+.progress-bar-custom4 {
+	background-color: #ffecca;
+	width: 10%;
+}
+
+.progress-bar-custom5 {
+	background-color: #c9dcff;
+	width: 10%;
+}
+
+.progress-bar-custom6 {
+	background-color: #655929;
+	width: 10%;
+}
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+footer {
+	background-color: #000;
+	color: #f8e7e8;
+	bottom: 0;
+	margin-bottom: 0;
+	font-size: 15px;
+	margin-top: 0;
+	
+
+}
+
+.container {
+	padding-top: 10px;
+}
+
+
+a {
+	color: #f8e7e8;
+}
+
+a:hover {
+	color: red;
+}
+
+p#foot-email {
+	margin-bottom: 0;
+}
+
+.col-md-4 {
+	font-family: 'Patrick Hand SC', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Queries */
+@media (max-width: 575.98px) { 
+	.fab {
+		font-size: 3em;
+	}
+ }
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { ... }
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { ... }
+
+/*Large devices (desktops, less than 1200px*/)
+@media (max-width: 1199.98px) { ... }

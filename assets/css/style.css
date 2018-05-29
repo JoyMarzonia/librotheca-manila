@@ -1,15 +1,32 @@
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
-.container {
-	background-color: black;
-	max-width: 100%;
-	background-size: cover;
-	padding: 0;
+#nav {
+	background-color: #000;
+	border: 2px solid #f8e7e8;
+	color: white;
+	position: absolute;
+	width: 100%;
+}
 
+.active {
+	float: right;
+}
+
+.dropdown {
+	background-color: #000;
+	color: #f8e7e8;
+	text-align: center;
+	position: relative;
+	top: 0;
+	height: 50px;
+	max-width: 100%;
+	display: inline-block;
 }
 
 
@@ -26,65 +43,9 @@
 	width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.menu {
-	background-color: #5995DA;
-	height: 80px;
+h6 {
+	font-family: 'Cookie', cursive;
 }
-
-.header {
-	background-color: #C08283;
-}
-
-.content {
-	background-color: #DCD0C0;
-}
-
-.sign-up {
-	background-color: #D7CEC7;
-}
-
-.feature-1 {
-	background-color: #C09F80;
-}
-
-.feature-2 {
-	background-color: #F4DECB;
-}
-
-.feature-3 {
-	background-color: #C7D8C6;
-}
-
-.feature-4 {
-	background-color: #f8e7e8;
-}
-*/
-
-
-
-
-
-
-
-
-
 
 
 
