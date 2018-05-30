@@ -4,64 +4,60 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Source Sans Pro', sans-serif;
+
 }
 
-#nav {
-	background-color: #000;
-	border: 2px solid #f8e7e8;
-	color: white;
-	position: absolute;
-	width: 100%;
-}
-
-.active {
-	float: right;
-}
-
-.dropdown {
-	background-color: #000;
-	color: #f8e7e8;
-	text-align: center;
-	position: relative;
-	top: 0;
+.container {
 	height: 50px;
 	max-width: 100%;
-	display: inline-block;
-}
-
-
-.slideshow {
-	max-width: 1280px
-	max-height: ;
-	height: auto;
-	background-size: cover;
-
-}
-
-.mySlides {
-	display: none;
-	width: 100%;
-}
-
-h6 {
-	font-family: 'Cookie', cursive;
+	background-color: #f8e7e8;
+	padding: 0;
+	margin: 0;
+	font-size: 25px;
 }
 
 
 
+.navbar-brand {
+	font-family: 'Patrick Hand SC', cursive;
+}
+
+.book {
+	height: 20px;
+	width: 20px;
+}
+/*Footer*/
+
+#footertab {
+	background-color: #000;
+	color: #f8e7e8;
+	bottom: 0;
+	margin-bottom: 0;
+	font-size: 15px;
+	margin-top: 0;
+	
+}
+
+.container {
+	padding-top: 10px;
+}
 
 
+a {
+	color: #f8e7e8;
+}
 
+a:hover {
+	color: red;
+}
 
+p#foot-email {
+	margin-bottom: 0;
+}
 
-
-
-
-
-
-
-
-
+.col-md-4 {
+	font-family: 'Patrick Hand SC', cursive;
+}
 
 
 
