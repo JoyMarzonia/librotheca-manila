@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+#brand {
+	font-family: lactosa;
+	font-size: 25px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+/*downloaded fonts */
+@font-face {
+	font-family: "lactosa";
+	src: url("../fonts/lactosa.otf");
+}
+
+.firstnav {
+	background-color: white;
+	width: 100%;
+	height: 60px;
+}
+
+.2ndnav {
+	height: 50px;
+	width: 100%;
+	background-color: #f8e7e8;
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+
+#first-bg {  
+	color: skyblue;
+	position: relative;
+	height: 600px;
+	background: url(../../assets/images/search.jpg) no-repeat;
+	background-size: cover;
+
+}
+
+#second-bg {
+	color: skyblue;
+	position: relative;
+	height: 600px;
+	background-color: #ececec; 
+	background-size: cover;
+
+}
+
+#third-bg{  
+	color: skyblue;
+	position: relative;
+	height: 600px;
+	background: url(../../assets/images/search3.jpg) no-repeat;
+	background-size: cover;
+
+}
+
+#search{
+	margin-top: 30%;
+	margin-left: 35%;
+}
+
+#form {
+	width: 25em;
+}
+
+.download {
+	font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Queries */
+@media (max-width: 575.98px) { ... }
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { ... }
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { ... }
+
+/*Large devices (desktops, less than 1200px*/)
+@media (max-width: 1199.98px) { ... }
