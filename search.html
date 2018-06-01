@@ -9,13 +9,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-	<title>E-Reads</title>
+	<title>Browse</title>
 
 	<!-- bootstrap css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
 	<!-- external css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style3.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/search.css">
 
 	<!-- animate css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
@@ -38,77 +38,61 @@
 <body>
 
 	<nav class="firstnav" id="brand">Librotheca Manila</nav>
-
-
-
-    <nav class="container" id="2ndnav">
+    <nav class="container-fluid" id="secondnav">
 	<ul class="nav">
 
 		<li class="nav-item">
-			<a class="nav-link" href="file:///home/day9/Documents/b9dc/capstone1/index.html" target="_blank">Home</a>
+			<a class="nav-link" href="index.html">Home</a>
 	 	</li>
 
 		<li class="nav-item">
-			<a class="nav-link active" href="#">Active</a>
+			<a class="nav-link active" href="browse.html">Browse</a>
 		</li>
 		
 		<li class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Library branches</a>
 			<div class="dropdown-menu">
-  				<a class="dropdown-item" href="#">Action</a>
-  				<a class="dropdown-item" href="#">Another action</a>
-  				<a class="dropdown-item" href="#">Something else here</a>
+  				<a class="dropdown-item" href="#">Quezon City</a>
+  				<a class="dropdown-item" href="#">Taguig City</a>
+  				<a class="dropdown-item" href="#">Pasig City</a>
+  				<a class="dropdown-item" href="#">Makati City</a>
+  				<a class="dropdown-item" href="#">Antipolo City</a>
   				<div class="dropdown-divider"></div>
-  				<a class="dropdown-item" href="#">Separated link</a>
+  				<a class="dropdown-item" href="#">Opening hours per branch</a>
 			</div>
 		</li>
 
 			<li class="nav-item">
-			<a class="nav-link" href="#">Link</a>
+			<a class="nav-link" href="#">Quick Links</a>
 		</li>
 	</ul>
 	</nav>
 
-	<div class="containerfluid">
-		 
+	<div class="container-fluid"> 
 		<div class="row">
-            <div class="col-md-12" id="first-bg">
+            <div class="col-12 col-md-12" id="first-bg">
             	<h2 class="download">Over 1 million downloadable content</h2>
-            	<h4 class="users">Free 5 e-books for new library users</h4>
+            	<h4 class="users"><q>Learning never exhausts the mind.</q>-Leonardo Da Vinci</h4>
                 <nav class="navbar navbar-light" id="search">
+
+
   					<form class="form-inline">
+
     				<input class="form-control mr-sm-2" id="form" type="search" placeholder="Search catalogue" aria-label="Search">
     				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
   					</form>
 				</nav>
             </div>
-
         </div>
-
-        <div class="row">
-            <div class="col-md-12" id="second-bg">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-
-        </div>
-
-        <div class="row">
-            <div class="col-md-12" id="third-bg">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        </div>
-
 	</div>
+
+	<footer class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+            	<p><strong>Terms of Use | Linking Disclaimer | Privacy Policy | Copyright | Accesibility</strong></p>
+            </div>  
+        </div>
+    </footer>
 
 
 

@@ -1,0 +1,69 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+b@font-face {
+	font-family: "lactosa";
+	src: url("../fonts/lactosa.otf");
+}
+
+#brand {
+	font-family: "lactosa";
+	font-size: 25px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+/*.firstnav {
+	background-color: white;
+	width: 100%;
+	height: 60px;
+}*/
+
+#secondnav {
+	height: 50px;
+	background-color: #f4decb;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+
+
+/*footer*/
+
+footer {
+	background-color: #bdbdbd;
+	color: #000;
+	bottom: 0;
+	margin-bottom: 0;
+	font-size: 15px;
+	margin-top: 0;
+	width: 100%;
+	height: 70px;
+	word-spacing: 10px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+
+
+
+/*Media Queries */
+@media (max-width: 575.98px) { ... }
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { ... }
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { ... }
+
+/*Large devices (desktops, less than 1200px*/)
+@media (max-width: 1199.98px) { ... }
