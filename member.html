@@ -14,7 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
 	<!-- external css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/member.css">
 
 	<!-- animate css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
@@ -35,7 +35,89 @@
 
 <body>
 
+	<nav class="firstnav" id="brand">Librotheca Manila</nav>
+    <nav class="container-fluid" id="secondnav">
+	<ul class="nav">
 
+		<li class="nav-item">
+			<a class="nav-link" href="index.html">Home</a>
+	 	</li>
+
+		<li class="nav-item">
+			<a class="nav-link active" href="#">Membership</a>
+		</li>
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Membership Type</a>
+			<div class="dropdown-menu">
+  				<a class="dropdown-item" href="#">Student</a>
+  				<a class="dropdown-item" href="#">Corporate Member</a>
+  				<a class="dropdown-item" href="#">Regular</a>
+  				<a class="dropdown-item" href="#">Special</a>
+  				<a class="dropdown-item" href="#">History</a>
+  				<a class="dropdown-item" href="#">Loyalty-deluxe</a>
+  				<div class="dropdown-divider"></div>
+  				<a class="dropdown-item" href="#">See Pricing</a>
+			</div>
+		</li>
+
+			<li class="nav-item">
+			<a class="nav-link" href="#">Frequently Asked Questions</a>
+		</li>
+	</ul>
+	</nav>
+
+	<div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 offset-md-3" id="">
+			<form>
+				<div class="form-group">
+			    	<label for="exampleFormControlInput1">Name</label>
+			    	<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="fullname">
+			  	</div>
+			  	<div class="form-group">
+			    	<label for="exampleFormControlInput1">Email address</label>
+			    	<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+			  	</div>
+			  	<div class="form-group">
+			    <label for="exampleFormControlSelect1">Age</label>
+			    <select class="form-control" id="exampleFormControlSelect1">
+			      	<option>Young learners (3-7y/o)</option>
+			      	<option>Primary students</option>
+			      	<option>Secondary students</option>
+			      	<option>University students</option>
+			      	<option>Adults</option>
+			      	<option>Seniors</option>
+			    </select>
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleFormControlSelect2">Example multiple select</label>
+			    <select multiple class="form-control" id="exampleFormControlSelect2">
+			      	<option>1</option>
+			      	<option>2</option>
+			      	<option>3</option>
+			      	<option>4</option>
+			      	<option>5</option>
+			    </select>
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleFormControlTextarea1">Example textarea</label>
+			    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+			  </div>
+
+			</form>
+
+			</div>
+		</div>
+	</div>
+
+<footer class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <p><strong>Terms of Use | Linking Disclaimer | Privacy Policy | Copyright | Accesibility</strong></p>
+        </div>  
+    </div>
+</footer>
 
 
 

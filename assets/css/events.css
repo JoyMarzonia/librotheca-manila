@@ -7,6 +7,34 @@
 
 }
 
+/*#maincon {
+	width: 100vh;
+	height: auto;
+	margin:	0;
+}*/
+
+h1 {
+
+	font-family: "antonia";
+	font-size: 4em;
+	color: #16ffbd;
+
+}
+
+.subtitle {
+	font-family: "future";
+	font-size: 1em;
+}
+
+#button {
+	float: right;
+}
+
+#navhome {
+	padding: 0;
+	margin: 0;
+	font-style: "lactosa";
+}
 
 
 
@@ -14,6 +42,28 @@
 
 
 
+
+
+/*downloaded fonts */
+@font-face {
+	font-family: "lactosa";
+	src: url("../fonts/lactosa.otf");
+}
+
+@font-face {
+	font-family: "sunrise";
+	src: url("../fonts/sunrise.ttf");
+}
+
+@font-face {
+	font-family: "future";
+	src: url("../fonts/future.ttf");
+}
+
+@font-face {
+	font-family: "antonia";
+	src: url("../fonts/antonia.otf");
+}
 
 
 

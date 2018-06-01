@@ -1,3 +1,5 @@
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -6,26 +8,6 @@
 
 }
 
-.download {
-	padding-top: 5%;
-	text-align: center;
-	font-size: 3.2em;
-	color: #4c4cff;
-}
-
-.users {
-	text-align: center;
-	font-family: "hangedletters";
-	font-size: 1.8em;
-	color: #27435a;
-
-}
-#brand {
-	font-family: lactosa;
-	font-size: 25px;
-	padding-left: 20px;
-	padding-top: 20px;
-}
 
 /*downloaded fonts */
 @font-face {
@@ -33,12 +15,12 @@
 	src: url("../fonts/lactosa.otf");
 }
 
-@font-face {
-	font-family: "hangedletters";
-	src: url("../fonts/hangedletters.ttf");
+#brand {
+	font-family: lactosa;
+	font-size: 25px;
+	padding-left: 20px;
+	padding-top: 20px;
 }
-
-
 
 .firstnav {
 	background-color: white;
@@ -55,34 +37,8 @@
 	font-size: 20px;
 }
 
-#first-bg {  
-	color: skyblue;
-	position: relative;
-	height: 700px;
-	background: url(../../assets/images/search.jpg) no-repeat;
-	background-size: cover;
-
-}
-
-#search{
-	margin-top: 20%;
-	margin-left: 35%;
-}
-
-#form {
-	width: 30em;
-	height: 3.2em;
-}
-
-.btn {
-	background-color: #99cc99;
-	color: black;
-	height: 3.2em;
-	width: 5em;
-}
-
-.download {
-	font-family: 'Oswald', sans-serif;
+#sec3 {
+	margin: 10px 10px 20px 10px;
 }
 
 /*footer*/
@@ -100,14 +56,6 @@ footer {
 	text-align: center;
 	padding-top: 10px;
 }
-
-
-
-
-
-
-
-
 
 
 
