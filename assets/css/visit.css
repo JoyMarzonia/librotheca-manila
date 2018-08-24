@@ -58,9 +58,60 @@ footer {
 	padding-top: 10px;
 }
 
+@font-face {
+	font-family: "sunrise";
+	src: url("../fonts/sunrise.ttf");
+}
+
+h1 {
+
+	font-family: "sunrise";
+	font-size: 4em;
+	color: #8a79b2;
+	padding-top: 10px;
+	padding-left:25px;
+
+}
+
+.subtitle{
+	padding-left:25px;
+}
+
+@font-face {
+	font-family: "future";
+	src: url("../fonts/future.ttf");
+}
 
 
+.subtitle {
+	font-family: "future";
+	font-size: 1em;
+}
 
+
+#maincon, #maincon2{
+	min-height: 50vh;
+	margin: 0;
+	background-image: url("../images/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow-x: hidden;
+
+}
+
+.nav-link{
+	font-size: 25px;
+	padding: 10px;
+	font-weight: bold;
+	font-color: #050d57;
+	font-family: "sunrise";
+	letter-spacing: 5px;
+}
+
+.card{
+	margin: 60px;
+}
 
 
 
