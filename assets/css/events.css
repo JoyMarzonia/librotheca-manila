@@ -36,6 +36,30 @@ h1 {
 	font-style: "lactosa";
 }
 
+#maincon2{
+	min-height: 50vh;
+	margin-top: 0;
+	background-image: url("../images/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow-x: hidden;
+}
+.nav-link{
+	font-size: 25px;
+	padding: 10px;
+	font-weight: bold;
+	font-color: #050d57;
+	font-family: "sunrise";
+	letter-spacing: 5px;
+	margin-bottom: 0;
+}
+
+h1{
+	margin-top: 20px;
+}
+
+
 
 
 
