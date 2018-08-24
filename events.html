@@ -34,21 +34,49 @@
 
 <body>
 
-<main class="container" id="maincon">
-
-<nav class="container-fluid">
+<main class="container-fluid" id="maincon2">
+<nav class="container" id="maincon">
 	<h1>Exhibitions</h1>
 	<p class="subtitle">The virtual gallery of Librotheca Manila</p>
 
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-            <a class="nav-link active" href="index.html" id="navhome">Home</a>
-        </li>
-    </ul>
-</nav>
+    <div class="container" id="bg">
+        <nav class="navbar navbar-expand-md navbar-light" id="nav">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="nav-collapse">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item" active>
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Browse</a>
+                            <div class="dropdown-menu" id="dropdown">
+                                <a class="dropdown-item" href="recommendation.html" target="_blank">Recommendation</a>
+                                <a class="dropdown-item" href="search.html" target="_blank">Search Catalogue</a>
+                            </div>
+                        </li>
+
+                         <li class="nav-item">
+                            <a class="nav-link" href="events.html" target="_blank">Events</a>
+                        </li>
+
+                         <li class="nav-item">
+                            <a class="nav-link" href="visit.html" target="_blank">Visit Us</a>
+                        </li>
+
+                         <li class="nav-item">
+                            <a class="nav-link" href="member.html" target="_blank">Membership</a>
+                        </li>
+                    </ul>
+                </div>        
+            </nav>
 
 <hr>
- <div class="container-fluid" id="body-con">
+ <div class="container" id="body-con">
          <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
