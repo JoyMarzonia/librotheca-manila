@@ -26,15 +26,15 @@ b@font-face {
 	height: 60px;
 }*/
 
-#secondnav {
+/*#secondnav {
 	height: 50px;
-	background-color: #f4decb;
+	background-color: transparent;
 	width: 100%;
 	padding: 0;
 	margin: 0;
 	font-size: 20px;
 }
-
+*/
 
 /*footer*/
 
@@ -51,6 +51,61 @@ footer {
 	text-align: center;
 	padding-top: 10px;
 }
+
+@font-face {
+	font-family: "sunrise";
+	src: url("../fonts/sunrise.ttf");
+}
+
+h1 {
+
+	font-family: "sunrise";
+	font-size: 4em;
+	color: #8a79b2;
+	padding-top: 10px;
+	padding-left:25px;
+
+}
+
+.subtitle{
+	padding-left:25px;
+}
+
+#maincon, #maincon2{
+	min-height: 50vh;
+	margin: 0;
+	background-image: url("../images/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow-x: hidden;
+
+}
+
+#cardcss{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+
+.nav-link{
+	font-size: 25px;
+	padding: 10px;
+	font-weight: bold;
+	font-color: #7c4f4f;
+	font-family: "sunrise";
+	letter-spacing: 5px;
+}
+
+.form-group{
+	margin: 15px;
+}
+
+.btn{
+	margin: 10px;
+}
+
+
 
 
 
